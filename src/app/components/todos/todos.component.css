@@ -1,0 +1,61 @@
+.todo, form {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    padding: 1.5rem;
+    align-items: center;
+}
+.todo:last-child {
+    border-bottom: unset;
+}
+.todo span {
+    font-weight: bold;
+    font-size: 2rem;
+    color: gray;
+    margin-right: 2rem;
+}
+.todo p {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.todo.done p {
+    text-decoration: line-through;
+    color: green;
+}
+.todo button {
+    padding: .5rem 1.5rem;
+    width: 7rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.todo button:hover {
+    background-color: #821d1d;
+}
+.todo button.edit {
+    margin-left: auto;
+    margin-right: .5rem;
+    background-color: dodgerblue;
+}
+.todo button.edit:hover {
+    background-color: #1e73c5;
+}
+form {
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    padding: .75rem;
+    font-size: 1.25rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+button.add {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: .75rem;
+}

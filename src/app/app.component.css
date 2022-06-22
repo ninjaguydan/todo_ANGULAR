@@ -1,0 +1,15 @@
+.app-container {
+    width: 80%;
+    max-width: 650px;
+    margin: 5rem auto;
+    background-color: ghostwhite;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 5px #dcdcdc;
+}
+header {
+    padding: 1rem;
+    background-color: lightsalmon;
+    border-radius: .5rem .5rem 0 0;
+    text-transform: uppercase;
+}
